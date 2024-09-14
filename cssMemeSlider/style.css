@@ -10,7 +10,7 @@ body{
 .wrapper{
     width:100%;
     height:100vh;
-    background-color: rgb(98, 210, 210);
+    background-color: #62D2D2;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -81,9 +81,9 @@ label{
     width: 1rem;
     height: 1rem;
     border-radius: 50%;
-    background-color: #bac9e1;
     cursor: pointer;
     border: 0.4rem solid #f0d1f3;
+    background-image: url(./img/white-star.png);
 
 }
 
@@ -91,28 +91,29 @@ input[id="button1"]:checked ~ .buttons label[for="button1"],
 input[id="button2"]:checked ~ .buttons label[for="button2"],
 input[id="button3"]:checked ~ .buttons label[for="button3"],
 input[id="button4"]:checked ~ .buttons label[for="button4"]{
-    background-color:#67c346;
+    background-color:#9eb0ff;
 }
 
 input[id="button1"]:hover ~ .buttons label[for="button1"],
 input[id="button2"]:hover ~ .buttons label[for="button2"],
 input[id="button3"]:hover ~ .buttons label[for="button3"],
 input[id="button4"]:hover ~ .buttons label[for="button4"]{
-    background-color: #bae1cf;
+    background-color: #96f4dde0;
 }
 
 input[id="button1"]:active:hover ~ .buttons label[for="button1"],
 input[id="button2"]:active:hover ~ .buttons label[for="button2"],
 input[id="button3"]:active:hover ~ .buttons label[for="button3"],
 input[id="button4"]:active:hover ~ .buttons label[for="button4"]{
-    background-color: #67c346; 
+    background-color: #96f4dde0; 
 }
 
 input[id="button1"]:focus:hover ~ .buttons label[for="button1"],
 input[id="button2"]:focus:hover ~ .buttons label[for="button2"],
 input[id="button3"]:focus:hover ~ .buttons label[for="button3"],
 input[id="button4"]:focus:hover ~ .buttons label[for="button4"]{
-    background-color: #67c346; 
+    background-color: #9eb0ff; 
+    
 }
 
 input[id="button1"]:checked ~ .text-wrapper .text1,
