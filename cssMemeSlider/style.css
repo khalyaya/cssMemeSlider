@@ -5,7 +5,9 @@
 
 body{
     width:100%;
+    cursor: url('./img/cursor.png'), auto;
 }
+
 
 .wrapper{
     width:100%;
@@ -22,8 +24,8 @@ body{
        justify-content: space-between;
        flex-wrap: wrap;
        background-color:#f0d1f3;
-       width:60%;
-       padding: 2rem 4rem;  
+       width:70%;
+       padding: 1rem ;  
        border-radius: 3%; 
        overflow: hidden;  
        max-width:35rem;
@@ -182,8 +184,7 @@ input[id="button4"]:checked ~ .text-wrapper .text4 {
 @media (max-width:768px){
     .slider-wrapper{
         flex-direction: column;
-        align-items: flex-start;
-        padding: 1rem 2rem;  
+        align-items: flex-start; 
     }
     .item1{
         order:3;
@@ -202,4 +203,12 @@ input[id="button4"]:checked ~ .text-wrapper .text4 {
         margin-top:0.5rem;
     }
    
+}
+
+@media (max-width: 767px) {
+    body, 
+    label {
+        cursor: default;
+
+    }
 }
