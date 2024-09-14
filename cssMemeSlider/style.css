@@ -83,7 +83,8 @@ label{
     border-radius: 50%;
     background-color: #bac9e1;
     cursor: pointer;
-    border: 0.3rem solid #f0d1f3;
+    border: 0.4rem solid #f0d1f3;
+
 }
 
 input[id="button1"]:checked ~ .buttons label[for="button1"],
