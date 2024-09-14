@@ -181,7 +181,7 @@ input[id="button4"]:checked ~ .text-wrapper .text4 {
     }
 }
 
-@media (max-width:768px){
+@media (max-width:600px){
     .slider-wrapper{
         flex-direction: column;
         align-items: flex-start; 
