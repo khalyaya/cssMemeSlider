@@ -21,7 +21,7 @@ body{
        flex-direction: row;
        justify-content: space-between;
        flex-wrap: wrap;
-       background-color:rgb(240, 209, 243);
+       background-color:#f0d1f3;
        width:60%;
        padding: 2rem 4rem;  
        border-radius: 3%; 
@@ -83,6 +83,7 @@ label{
     border-radius: 50%;
     background-color: #bac9e1;
     cursor: pointer;
+    border: 0.3rem solid #f0d1f3;
 }
 
 input[id="button1"]:checked ~ .buttons label[for="button1"],
@@ -180,6 +181,7 @@ input[id="button4"]:checked ~ .text-wrapper .text4 {
     .slider-wrapper{
         flex-direction: column;
         align-items: flex-start;
+        padding: 1rem 2rem;  
     }
     .item1{
         order:3;
